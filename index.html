@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsome Pups Dog Walking - North Hollywood</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <style>
+        /* Additional styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 36px;
+            color: #333;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        p.indent {
+            text-indent: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f8f8f8;
+        }
+        .banner {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .banner img {
+            max-width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin: 40px 0;
+            text-align: left;
+        }
+        .contact-button {
+            background-color: #f8f8f8;
+            padding: 15px 30px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+            display: block;
+            margin: 0 auto;
+        }
+        .contact-button:hover {
+            background-color: #e0e0e0;
+            border-color: #555;
+        }
+        .email-template {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin-top: 40px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pawsome Pups</h1>
+        <p>Your Furry Friend's Best Companion</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="cool_banner.jpg" alt="Cool Banner">
+    </div>
+
+    <div class="container">
+        <section id="services">
+            <h2>Our Services</h2>
+            <p class="indent">We take pride in offering personalized dog walking services in the scenic North Hollywood area. From brisk walks to leisurely strolls, our services are tailored to your pup's needs, ensuring they stay active and happy.</p>
+            <p class="indent">We understand that each dog is unique, and our services are designed to accommodate their individual preferences. Whether your dog loves a short adventure or a lengthy exploration, our professional team ensures they have a joyful experience.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p class="indent">At Pawsome Pups, we are a passionate group of dog enthusiasts dedicated to providing top-notch care for your beloved furry companions. With years of experience, we understand the significance of building a strong bond with dogs and ensuring their well-being.</p>
+            <p class="indent">Our team members are not only skilled in dog walking, but also in fostering a safe and enjoyable environment for your pet. We treat every dog as if they were our own and prioritize their comfort and happiness above all else.</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>"Pawsome Pups is a lifesaver! They've made our busy schedule so much easier while keeping our dog happy and active."</blockquote>
+            <blockquote>"Professional, reliable, and truly caring. Our dog's tail starts wagging as soon as they arrive!"</blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p class="indent">Have questions or ready to schedule a walk for your pup in North Hollywood?</p>
+            <button class="contact-button" id="emailButton">Email Us</button>
+            <div class="email-template" id="emailTemplate">
+                <p>Feel free to include the following information in your email inquiry:</p>
+                <ul>
+                    <li>Your dog's name</li>
+                    <li>Preferred walking schedule</li>
+                    <li>Any special requirements or considerations</li>
+                </ul>
+                <a href="mailto:info@pawsomepups.com?subject=Dog%20Walking%20Inquiry&body=Hello%20Pawsome%20Pups%20Team,%0A%0AI%20would%20like%20to%20inquire%20about%20your%20dog%20walking%20services.%20Here%20are%20some%20details%20I%20would%20like%20to%20include:%0A%0A- Dog's Name:%0A- Preferred Schedule:%0A- Special Requirements:%0A%0AThank%20you." class="contact-button">Email Us</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Discover Our World</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id_here" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Pawsome Pups Dog Walking. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const emailButton = document.getElementById('emailButton');
+        const emailTemplate = document.getElementById('emailTemplate');
+
+        emailButton.addEventListener('click', () => {
+            emailTemplate.style.display = 'block';
+            emailButton.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
